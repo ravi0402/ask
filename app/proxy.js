@@ -1,7 +1,7 @@
 const devProxy = {
 	'/api': {
-		target: 'https://api.nasa.gov',
-		pathRewrite: { '^/api': '' },
+		target: 'https://www.toppr.com',
+		pathRewrite: { '^/api': 'https://www.toppr.com/api' },
 		changeOrigin: true,
 	},
 };

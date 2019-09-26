@@ -12,7 +12,7 @@ export const PlanetaryService = {
 		try {
 			response = await Http.Request<PlanetaryModel.GetApodResponse>(
 				'GET',
-				'/planetary/apod',
+				'/onboarding/start/',
 				payload.params,
 			);
 		} catch (error) {
